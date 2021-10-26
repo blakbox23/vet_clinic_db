@@ -17,10 +17,10 @@ explain analyze SELECT * FROM visits where vet_id = 2;
 explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
 
 ## Before optimization
-![Screenshot](./screenshots/email_before.png)
+![Screenshot](./screenshots/email_before.PNG)
 
 ## After optimization
-![Screenshot](./screenshots/email_before.png)
+![Screenshot](./screenshots/email_before.PNG)
 
 
 ## Built With
@@ -48,11 +48,11 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [Peter Mbuthia](https://www.linkedin.com/in/peter-mbuthia)
 
 
-👤 **Peter Mbuthia**
+👤 **Onur Onat Surmeli**
 
-- GitHub: [@Blakbox23](https://github.com/blakbox23)
-- Twitter: [@blakbox23](https://twitter.com/blakbox23)
-- LinkedIn: [Peter Mbuthia](https://www.linkedin.com/in/peter-mbuthia)
+* [LinkedIn](https://www.linkedin.com/in/onur-onat-surmeli-1143ab181/)
+
+* [Github](https://github.com/Zibilyonik)
 
 
 ## 🤝 Contributing
