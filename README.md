@@ -2,7 +2,7 @@
 
 This project is built as practice for optimizing search queries in a populated database. We first set up the database tables and populated them. We then ran queries on the dadtabase and recorded the time taken. After that we optimized the database and recorded the time taken to run queries. Below are screenshots of queries ran obefore and after the optimization.
 
-## Query One
+## Query Example 1
 
 explain analyze SELECT * FROM visits where vet_id = 2;
 
@@ -12,8 +12,15 @@ explain analyze SELECT * FROM visits where vet_id = 2;
 ## After optimization
 ![Screenshot](./screenshots/visits_before.png)
 
+## Query Example 2
 
-![Screenshot](./src/assets/proj.png)
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+## Before optimization
+![Screenshot](./screenshots/email_before.png)
+
+## After optimization
+![Screenshot](./screenshots/email_before.png)
 
 
 ## Built With
