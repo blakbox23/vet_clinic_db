@@ -4,6 +4,16 @@ This project is built as practice for optimizing search queries in a populated d
 
 ## Query Example 1
 
+explain analyze SELECT * FROM visits where animal_id = 4;
+
+## Before optimization
+![Screenshot](./screenshots/animal_before.png)
+
+## After optimization
+![Screenshot](./screenshots/animal_after.png)
+
+## Query Example 1
+
 explain analyze SELECT * FROM visits where vet_id = 2;
 
 ## Before optimization
