@@ -10,7 +10,7 @@ explain analyze SELECT * FROM visits where vet_id = 2;
 ![Screenshot](./screenshots/visits_before.png)
 
 ## After optimization
-![Screenshot](./screenshots/visits_before.png)
+![Screenshot](./screenshots/visits_after.png)
 
 ## Query Example 2
 
@@ -20,7 +20,7 @@ explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
 ![Screenshot](./screenshots/email_before.png)
 
 ## After optimization
-![Screenshot](./screenshots/email_before.png)
+![Screenshot](./screenshots/email_after.png)
 
 
 ## Built With
