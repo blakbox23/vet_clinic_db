@@ -20,7 +20,7 @@ explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
 ![Screenshot](./screenshots/email_before.PNG)
 
 ## After optimization
-![Screenshot](./screenshots/email_after.png)
+![Screenshot](./screenshots/email_after.PNG)
 
 
 ## Built With
