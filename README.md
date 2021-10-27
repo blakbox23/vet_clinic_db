@@ -12,7 +12,7 @@ explain analyze SELECT * FROM visits where animal_id = 4;
 ## After optimization
 ![Screenshot](./screenshots/animal_after.png)
 
-## Query Example 1
+## Query Example 2
 
 explain analyze SELECT * FROM visits where vet_id = 2;
 
@@ -22,7 +22,7 @@ explain analyze SELECT * FROM visits where vet_id = 2;
 ## After optimization
 ![Screenshot](./screenshots/visits_after.png)
 
-## Query Example 2
+## Query Example 3
 
 explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
 
